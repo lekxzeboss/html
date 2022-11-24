@@ -55,6 +55,22 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename : "index.html",
       template: path.resolve(__dirname, "src/index.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "who.html",
+      template: path.resolve(__dirname, "src/who.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "what.html",
+      template: path.resolve(__dirname, "src/what.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "where.html",
+      template: path.resolve(__dirname, "src/where.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "contact.html",
+      template: path.resolve(__dirname, "src/contact.html"),
     })
   ],
   stats: "minimal",
