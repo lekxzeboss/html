@@ -71,3 +71,27 @@ footer{
     font-size: 1.5rem;
     color: white;
 }
+
+footer section{
+    width: 50%;
+
+}
+.section-right{
+    padding: 10px;
+}
+footer .section-right p{
+    font-size: 10px;
+}
+
+footer .section-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .section-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
