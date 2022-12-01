@@ -57,21 +57,45 @@ module.exports = {
       template: path.resolve(__dirname, "src/index.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "who.html",
-      template: path.resolve(__dirname, "src/who.html"),
+      filename : "Soleil.html",
+      template: path.resolve(__dirname, "src/Soleil.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "what.html",
-      template: path.resolve(__dirname, "src/what.html"),
+      filename : "mercure.html",
+      template: path.resolve(__dirname, "src/mercure.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "where.html",
-      template: path.resolve(__dirname, "src/where.html"),
+      filename : "vénus.html",
+      template: path.resolve(__dirname, "src/vénus.html"),
     }),
     new HtmlWebpackPlugin({
-      filename : "contact.html",
+      filename : "terre.html",
+      template: path.resolve(__dirname, "src/terre.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "mars.html",
+      template: path.resolve(__dirname, "src/mars.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "jupiter.html",
+      template: path.resolve(__dirname, "src/jupiter.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "saturne.html",
+      template: path.resolve(__dirname, "src/saturne.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "uranus.html",
+      template: path.resolve(__dirname, "src/uranus.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "neptune.html",
+      template: path.resolve(__dirname, "src/neptune.html"),
+    }),
+    new HtmlWebpackPlugin({
+      filename : "contact",
       template: path.resolve(__dirname, "src/contact.html"),
-    })
+    }),
   ],
   stats: "minimal",
   devtool: "source-map",
